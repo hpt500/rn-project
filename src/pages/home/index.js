@@ -27,6 +27,13 @@ export default class HomeScreen extends Component {
                     color="#3bb5fc"
                 />
             ),
+            headerLeft: () => (
+                <Button
+                    onPress={() => navigation.navigate('MyModal')}
+                    title="Info"
+                    color="#3bb5fc"
+                />
+            ),
         }
     };
     componentDidMount() {
@@ -41,7 +48,7 @@ export default class HomeScreen extends Component {
     render() {
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                <Text>Home Screen</Text>
+                <Text>Home Screen33</Text>
                 <Text>Count: {this.state.count}</Text>
                 <Button
                     title="Go to Details"

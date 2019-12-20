@@ -17,7 +17,7 @@ export default class DetailsScreen extends Component {
         const { navigation } = this.props;
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-                <Text>Details Screen1234</Text>
+                <Text>Details Screen123</Text>
                 <Text>itemId: {JSON.stringify(navigation.getParam('itemId', 'NO-ID'))}</Text>
                 <Text>otherParam: {JSON.stringify(navigation.getParam('otherParam', 'default value'))}</Text>
                 <Button

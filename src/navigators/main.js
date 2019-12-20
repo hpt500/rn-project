@@ -1,12 +1,12 @@
 
 import { createStackNavigator } from 'react-navigation-stack';
-import homePage from "../pages/home"
-import detailPage from "../pages/detail"
+import homeScreen from "../pages/home"
+import detailScreen from "../pages/detail"
 
-export const AppNavigator = createStackNavigator(
+export const MainStack = createStackNavigator(
     {
-        Home: homePage,
-        Details: detailPage,
+        Home: homeScreen,
+        Details: detailScreen,
     },
     {
         initialRouteName: 'Home',
@@ -19,6 +19,6 @@ export const AppNavigator = createStackNavigator(
                 fontWeight: 'bold',
             },
         },
-        
+
     }
 );

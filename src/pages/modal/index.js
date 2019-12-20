@@ -14,6 +14,10 @@ export default class ModalScreen extends Component {
                     title="Go to Tabs"
                     onPress={() => this.props.navigation.navigate('Tabs')}
                 />
+                <Button
+                    title="Go to Details"
+                    onPress={() => this.props.navigation.navigate('Details')}
+                />
             </View>
         );
     }

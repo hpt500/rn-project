@@ -6,17 +6,21 @@ export default class ModalScreen extends Component {
         return (
             <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
                 <Text style={{ fontSize: 30 }}>This is a modal123!</Text>
-                <Button
+                <Button 
                     onPress={() => this.props.navigation.goBack()}
                     title="Dismiss"
                 />
-                <Button
+                <Button 
                     title="Go to Tabs"
                     onPress={() => this.props.navigation.navigate('Tabs')}
                 />
-                <Button
+                <Button 
                     title="Go to Details"
                     onPress={() => this.props.navigation.navigate('Details')}
+                />
+                <Button 
+                    title="Go to Drawer"
+                    onPress={() => this.props.navigation.navigate('Drawer')}
                 />
             </View>
         );

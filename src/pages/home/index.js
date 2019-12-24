@@ -11,7 +11,6 @@ class LogoTitle extends Component {
                 />
                 <Text style={{ color: '#fff', marginLeft: 10, fontSize: 20 }}>Home</Text>
             </View>
-
         );
     }
 }
